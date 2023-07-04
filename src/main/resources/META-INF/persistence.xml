@@ -12,14 +12,7 @@
             <property name="javax.persistence.jdbc.url" value="jdbc:mysql://localhost:3306/meteo?autoReconnect=true&amp;useSSL=false"/>
             <property name="javax.persistence.jdbc.user" value="root"/>
             <property name="javax.persistence.jdbc.password" value="password"/>
-            <!-- Configuration supplémentaire pour Hibernate -->
-            <property name="hibernate.dialect" value="org.hibernate.dialect.MySQL5Dialect"/>
-            <property name="hibernate.hbm2ddl.auto" value="update"/>
-            <property name="hibernate.show_sql" value="true"/>
-            <property name="hibernate.connection.url" value="jdbc:mysql://localhost:3306/meteo"/>
-            <property name="hibernate.connection.driver_class" value="com.mysql.cj.jdbc.Driver"/>
-            <property name="hibernate.connection.username" value="root"/>
-            <property name="hibernate.connection.password" value="Bayeeli2"/>
+
         </properties>
     </persistence-unit>
 </persistence>
